@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -14,24 +14,32 @@
     />
 
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/responsive.css">
   </head>
   <body>
     <div class="allContent">
       <header>
         <h2>DevChallenge</h2>
-        <nav>
+        <nav id="menuDesktop">
           <ul>
             <li>Home</li>
             <li>Features</li>
             <li>Contact</li>
           </ul>
         </nav>
+        <nav id="menuMobile">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </nav>
+
       </header>
       <main>
         <div class="text">
           <h1>Create amazing graphics</h1>
           <h3>Colaborate and create beautiful graphics with your team</h3>
-          <div id="startNow"><a href="#">Start Now</a></div>
+          <a href="#"><button id="startNow">Start Now</button></a>
         </div>
         <div class="imagem"><img src="./assets/team.jpg" alt="" /></div>
       </main>

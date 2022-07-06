@@ -1,0 +1,140 @@
+@media screen and (max-width: 1300px) {
+  /* Header */
+  header {
+    width: 100vw;
+  }
+
+  header > h2 {
+    font-size: 2em;
+    width: 40%;
+  }
+
+  #menuDesktop {
+    margin-right: 2.5rem;
+  }
+
+  #menuDesktop > ul li {
+    font-size: 1.2em;
+  }
+
+  /* Main */
+
+  .text {
+    margin-top: 8rem;
+  }
+
+  .text > h1 {
+    font-size: 2.5em;
+  }
+
+  .text > h3 {
+    font-size: 1em;
+  }
+
+  .imagem > img {
+    height: 300px;
+    width: 520px;
+  }
+
+  #startNow {
+    border-radius: 15px;
+    border: solid 2px #dd4205;
+
+    height: 40px;
+    width: 200px;
+  }
+
+  button {
+    font-size: 1.2em;
+    font-weight: 900;
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+ .allContent{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+  /* HEADER */
+  #menuDesktop {
+    display: none;
+  }
+
+  #menuMobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 35%;
+    margin-left: 2rem;
+  }
+
+  #menuMobile > span {
+    height: 3px;
+    width: 35px;
+    margin-top: 5px;
+
+    background-color: #766f68;
+    border-radius: 20px;
+  }
+
+  header > h2 {
+    width: 60%;
+   padding-left: 0rem;
+   margin-left: 0rem;
+   font-size: 2em;
+   padding-left: 2rem;
+  }
+
+  /* Main */
+main{
+    display:flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem 0rem 0rem 0rem;
+  }
+
+.imagem{
+    margin: 0rem 5rem 0rem 3rem
+}
+
+  .imagem > img {
+    float: none;
+    margin: 3rem 0rem 0rem 0rem;
+    height: 200px;
+    width: 300px;
+  }
+
+
+  .text > h1 {
+    font-size: 2.5em;
+    text-align: center;
+  }
+  
+  .text > h3 {
+    width: 300px;
+    font-size: 1.2em;
+    text-align: center;
+
+  }
+
+  #startNow{
+    margin-top: 1rem;
+  }
+}

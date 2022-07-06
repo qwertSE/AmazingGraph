@@ -18,6 +18,7 @@ body {
   height: 1024px;
 }
 
+
 header {
   display: flex;
   width: 1440px;
@@ -33,7 +34,7 @@ header > h2 {
   letter-spacing: 1px;
 }
 
-header > nav {
+#menuDesktop {
   width: 40%;
 }
 
@@ -43,11 +44,16 @@ ul {
   margin-top: 2.5rem;
 }
 
-nav > ul li {
+#menuDesktop > ul li {
   color: var(--gray);
   font-size: 1.8em;
   list-style: none;
 }
+
+#menuMobile{
+  display: none;
+}
+
 
 main {
   display: flex;
@@ -81,17 +87,22 @@ main {
   text-align: center;
   background-color: var(--orange);
 
-  border-radius: 10px;
-  border: solid 1px #dd4205;
+  border-radius: 15px;
+  border: solid 2px #dd4205;
 
-  height: 45px;
+  height: 70px;
   width: 340px;
-  padding-top: 1rem;
+  margin-top: 2.5rem;
 }
 
-#startNow > a {
+button {
   color: #ffffff;
   font-size: 1.8em;
+  font-weight:900;
   text-decoration: none;
+}
+
+a:hover > #startNow{
+  background-color: #ff3c00;
 }
 
